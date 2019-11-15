@@ -17,7 +17,7 @@ For this project, I plan to explore the Crime Incident Reports dataset [4] that 
 The dataset consists of three files which can be downloaded from [4]:
 
 - **raw_data.csv**
-This dataset is located at [data/raw_data.csv](data/raw_data.csv). It is the most important file in this analysis which contains details on what crime happened when and where. A detail description of the columns is present in the table below. Note, this description is partially present in one of the files [data/rmscrimeincidentfieldexplanation.xlsx](data/rmscrimeincidentfieldexplanation.xlsx) provided by the BPD. 
+This dataset is located at [data/raw_data.csv](data/raw_data.csv). It is the most important file in this analysis which contains details on what crime happened when and where. A detail description of the columns is present in the table below. Note, this description is partially present in one of the files [data/rmscrimeincidentfieldexplanation.xlsx](data/rmscrimeincidentfieldexplanation.xlsx) provided by the BPD. This file is ~78.6 MB in size.
 
 | Column | Description |
 |--------|-------------|
@@ -56,11 +56,17 @@ This dataset is located at [data/rmsoffensecodes.xlsx](data/rmsoffensecodes.xlsx
 | NAME | Name of the offense corresponding to the CODE |
 
 
-## Methodology
-
+## Research Questions
 
 ## Ethical Considerations
 The dataset provides only the street information and doesn't narrow it down any further to the building number, etc. Hence, I feel that there are no ethical considerations with this dataset. This information should be released publicly so that people can be aware of what is happening in their neighbourhood and city. One shouldn't have to file a Freedom of Information Act (FOIA) request again and again to keep themselves posted of their surroundings. It is credit to this information that the public can find out and take action when they feel that the crime is rising and the law isn't doing enough.
+
+
+## Human-Centered Considerations
+
+This project could be very useful for someone who plans move to the Boston city or is already staying there. It contains the most recent data possible (see Limitations). It could help someone understand the crime statistics of the city such as the main places and times where these crimes happen, etc. and help make better decisions about where to stay and which places to avoid in order to stay safe. Survival instinct is one of the most basic instincts to all kinds of life and hopefully this work could help someone improve their chances of getting hurt.
+
+It could be the case that this analysis might result in showing that certain parts of the city are more common for certain crimes. And many-a-times, the areas could be tied down to a certain community but that is not the intent of the study and hence the mapping is not a part of this study or the dataset. The intent here is just to provide information for people to make smarter choices in order to stay safe and I do not wish for any service provider to alter their services based on this information. Moreover, this information is public and provided by the government and could anyway be misused if so were the intentions of people. This project does not aim to aid misuse of any form.
 
 
 ## License
