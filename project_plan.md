@@ -58,6 +58,12 @@ This dataset is located at [data/rmsoffensecodes.xlsx](data/rmsoffensecodes.xlsx
 
 ## Research Questions
 
+1. What are the top 10 crimes classified for each district?
+2. What are the top 10 crimes classified according to different times of the day?
+3. What crimes are most commonly associated with a shooting?
+4. How have certain crimes changed in the past few years?
+
+
 ## Ethical Considerations
 The dataset provides only the street information and doesn't narrow it down any further to the building number, etc. Hence, I feel that there are no ethical considerations with this dataset. This information should be released publicly so that people can be aware of what is happening in their neighbourhood and city. One shouldn't have to file a Freedom of Information Act (FOIA) request again and again to keep themselves posted of their surroundings. It is credit to this information that the public can find out and take action when they feel that the crime is rising and the law isn't doing enough.
 
